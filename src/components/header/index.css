@@ -1,0 +1,142 @@
+.navbar_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.navbar_links_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header {
+  padding: 20px 0;
+  background-color: #f0f4f8;
+}
+.navbar_links a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13.2px;
+  color: #6e9bb8;
+}
+.btn button {
+  background-color: #fff;
+  border: none;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+}
+
+/* =================     N A V B A R   B O T T O M   ================= */
+.navbar_bottom_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 60px;
+}
+.navbar_bottom_items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar_bottom_user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.navbar_bottom_items a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.8px;
+  color: #0000de;
+}
+.navbar_bottom_user .phone a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.6px;
+  color: #0000de;
+}
+.navbar_bottom_user .search button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.navbar_bottom_user .search button i {
+  color: #6e9bb8;
+  font-size: 16px;
+}
+.btn1 button {
+  width: 174px;
+  height: 48px;
+  border-radius: 20px 0px 20px 0px;
+  background-color: #0000de;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.btn2 button {
+  cursor: pointer;
+  width: 159px;
+  height: 48px;
+  border-radius: 20px 0px 20px 0px;
+  background-color: #fff;
+  color: #0000de;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.4px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* =================responsiv====================== */
+
+
+@media (max-width: 1248px) {
+  .navbar_links {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .navbar_links_item{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+@media (max-width: 1266px){
+  .navbar_bottom_links{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .navbar_bottom_items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .navbar_bottom_user{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}

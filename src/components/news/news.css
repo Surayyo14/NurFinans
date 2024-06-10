@@ -1,0 +1,134 @@
+.news_card_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.news_title h2 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 37.4px;
+  color: black;
+  margin-bottom: 30px;
+}
+.news_card_title h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.4px;
+  color: #79a6c3;
+}
+.news_card_title h3 {
+  padding: 10px 0 20px 0;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.news_card1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f4f8;
+  padding: 20px 10px;
+  border-radius: 6px;
+  gap: 10px;
+  width: 100%;
+}
+
+.car {
+  padding-right: 0;
+}
+.news_wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 26px;
+}
+.news_wrap1 h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+  color: #355dfb;
+  padding-bottom: 8px;
+}
+.news_wrap1 h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.4px;
+  color: black;
+}
+.news_card_title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #6e9bb8;
+  margin-bottom: 27px;
+}
+.news_btn {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.news_card_img img {
+  width: 179px;
+}
+.busines {
+  display: flex;
+  align-items: center;
+
+  width: 302px;
+}
+.busines1 img {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+@media (max-width: 1302px) {
+  .news_card_wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .busines {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}
+@media (max-width: 674px) {
+  .news_card_img {
+    display: none;
+  }
+}
+@media (max-width: 428px) {
+  .news_btn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .news_title h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 380px){
+.news_wrap1 h1{
+  font-size: 30px;
+  line-height: 40px;
+}
+.news_wrap{
+flex-wrap: wrap;
+}
+}
+@media (max-width: 306px){
+  .news_card_title h3{
+    font-size: 18px;
+  }
+}
